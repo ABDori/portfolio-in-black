@@ -7,9 +7,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!-- обнуление стилей -->
-      <link rel="stylesheet" href="../pr6 Personal Blog/css/normalize.css">
+      <link rel="stylesheet" href="../css/normalize.css">
       <!-- стилизация -->
-      <link rel="stylesheet" href="../pr6 Personal Blog/css/style.css">
+      <link rel="stylesheet" href="../css/style.css">
 
 
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,10 +43,21 @@
             <aside class="side">
                   <nav class="nav">
                         <ul class="menu">
-                              <li><a href="#">Home</a></li>
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">Contacts</a></li>
-                              <li><a href="#">Projects</a></li>
+                              <li><a class="menu__text-menu" href="#">Home</a></li>
+                              <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>
+                                    </a></li>
+
+                              <li><a class="menu__text-menu" href="#">About</a></li>
+                              <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                                    </a></li>
+
+                              <li><a class="menu__text-menu" href="#">Contacts</a></li>
+                              <li><a href="#"><i class="fa fa-phone-square" aria-hidden="true"></i>
+                                    </a></li>
+
+                              <li><a class="menu__text-menu" href="#">Projects</a></li>
+                              <li><a href="#"><i class="fa fa-product-hunt" aria-hidden="true"></i>
+                                    </a></li>
                         </ul>
                   </nav>
             </aside>
@@ -242,9 +253,9 @@
                         <label for="tel">enter Your phone number here</label>
                         <input type="tel" id="tel" placeholder="Phone number">
                         <label for="mail">enter Your e-mail here</label>
-                        <input type="e-mail" id="mail" placeholder="mail">
-                        <label for="rec">tell me what You wanted to</label>
-                        <input type="textarea" id="rec" placeholder="all You wanted">
+                        <input type="e-mail" id="mail" placeholder="Mail">
+                        <label for="rec">tell me what You wanted</label>
+                        <input type="textarea" id="rec" placeholder="all You wanted to say">
                         <div class="btns">
                               <button class="submit">Send</button>
                               <button class="clear">Clear</button>
