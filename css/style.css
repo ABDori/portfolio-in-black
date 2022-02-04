@@ -212,6 +212,7 @@ body {
             box-shadow: var(--b-shad);
             border-radius: var(--b-rad);
             margin: var(--m-block);
+            background-color: var(--b-clr);
 
             display: flex;
             flex-direction: column;
@@ -808,7 +809,7 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            transition: 0.5s cubic-bezier(0.17, 0.67, 0.21, 1.21);
+            transition-delay: 0.8s;
             line-height: 1.5rem;
       }
       .menu a:hover {
@@ -829,6 +830,7 @@ body {
             box-shadow: var(--b-shad);
             border-radius: var(--b-rad);
             margin: var(--m-block);
+            background-color: var(--b-clr);
 
             display: flex;
             flex-direction: column;
