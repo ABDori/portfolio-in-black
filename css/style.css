@@ -22,6 +22,7 @@ body {
 
 .main p {
       text-align: justify;
+      color: rgb(168, 160, 90);
 }
 /* desktop edition */
 /* desktop edition */
@@ -120,6 +121,9 @@ body {
             flex-direction: column;
             place-content: center;
       }
+      .main-container img {
+            margin: 0 auto;
+      }
       .home {
             grid-area: Home;
       }
@@ -140,7 +144,6 @@ body {
             object-fit: contain;
       }
       .main-container p {
-            color: #fff;
             display: flex;
             font-size: 1rem;
       }
@@ -443,7 +446,6 @@ body {
             object-fit: contain;
       }
       .main-container p {
-            color: #fff;
             display: flex;
             font-size: 1rem;
             padding: 0 2rem;
@@ -766,7 +768,6 @@ body {
             object-fit: contain;
       }
       .main-container p {
-            color: #fff;
             display: flex;
             font-size: 1rem;
             padding: 0 2rem;
