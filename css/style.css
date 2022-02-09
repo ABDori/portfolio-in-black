@@ -177,7 +177,8 @@ body {
             align-items: space-between;
             color: #fff;
 
-            min-height: 50vw;
+            min-height: 50vh;
+            max-height: 95vh;
       }
       .menu li {
       }
@@ -322,7 +323,7 @@ body {
 /* tablet edition */
 /* tablet edition */
 /* tablet edition */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
       :root {
             --m-block: 0.5rem 2vw 2rem 7vw;
       }
@@ -436,7 +437,7 @@ body {
       }
 
       .main-container img {
-            /*  max-width: 70vw; */
+            max-width: 80vw;
             max-height: 25rem;
             overflow: hidden;
             object-fit: contain;
@@ -620,20 +621,31 @@ body {
 /* mobile edition */
 /* mobile edition */
 /* mobile edition */
+@media screen and (max-width: 1000px) {
+      .menu a {
+            font-size: 0px;
+      }
+
+      .nav .fa {
+            transform: rotate(90deg);
+            font-size: 2rem;
+      }
+}
+
 /* mobile edition */
 /* mobile edition */
 /* mobile edition */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
       /* page features */
 
       :root {
-            --m-block: 0.5rem 2vw 1rem 10vw;
+            --m-block: 0.5rem 0.5vw 1rem 8vw;
             --b-rad: 10px 15px 0px 15px;
             --b-shad: 3px 3px 3px#17171a;
       }
       .wrapper {
             display: grid;
-            grid-template-columns: 7vw 92vw;
+            grid-template-columns: 7vw 93vw;
             grid-template-rows: 7rem auto 30rem 10rem;
             grid-template-areas:
                   "side  hd"
@@ -763,6 +775,7 @@ body {
       /* sidebar features */
 
       .side {
+            display: grid;
             grid-area: side;
 
             font-style: var(--nav-font);
