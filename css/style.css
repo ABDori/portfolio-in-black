@@ -39,7 +39,7 @@ body {
             font-family: var(--h-font);
             color: var(--nav-h-clr);
             display: flex;
-            margin: auto;
+            margin: 0 auto;
             padding: 1rem 0;
             text-align: center;
       }
@@ -625,7 +625,7 @@ body {
 /* mobile edition */
 @media screen and (max-width: 1000px) {
       .menu {
-            min-height: 40vh;
+            min-height: 50vh;
       }
       .menu a {
             font-size: 0px;
@@ -651,8 +651,8 @@ body {
             border-radius: 50%;
             border: 2px solid rgb(58, 63, 46);
 
-            width: 3rem;
-            height: 3rem;
+            width: 2rem;
+            height: 2rem;
       }
       .nav li i:hover {
             background-color: transparent;
@@ -834,7 +834,7 @@ body {
             justify-content: space-around;
             align-items: center;
 
-            min-height: 40vh;
+            min-height: 50vh;
       }
       .fi {
             display: flex;
